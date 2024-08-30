@@ -1,0 +1,71 @@
+.property-card {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.property-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.property-price-info {
+  display: flex;
+  justify-content: space-between;
+}
+.category {
+  background-color: #fbd9cf;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  color: #1e1e1e;
+  padding: 5px 12px;
+  display: inline-block;
+  margin-top: 25px;
+  min-width: fit-content;
+}
+.property-card .property-price-info h6 {
+  font-size: 1.25rem;
+  color: #f35525;
+  margin-top: 6px;
+  display: inline-block;
+  margin-top: 30px;
+}
+.property-card h4 {
+  font-size: 1.1875rem;
+  margin: 25px 0px;
+}
+.property-card h4 a {
+  color: #1e1e1e;
+}
+
+.property-card ul {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.property-card ul li {
+  display: inline-block;
+  font-size: 0.9375rem;
+  color: #4a4a4a;
+  margin-right: 20px;
+}
+.property-card ul li span {
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.property-card .nav-btn {
+  width: max-content;
+  margin: 0 auto;
+  line-height: 40px;
+  padding: 0px 30px;
+}
+.property-card .btn-icon {
+  display: none;
+}
+
+@media screen and (width < 576px) {
+  .property-card .property-price-info h6 {
+    font-size: 1rem;
+  }
+}

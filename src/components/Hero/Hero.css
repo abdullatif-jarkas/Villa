@@ -1,0 +1,29 @@
+.hero {
+  background-image: url(../../assets/imgs/page-heading-bg.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .hero-container {
+  padding: 210px 0px 110px;
+  text-align: center;
+}
+.hero .breadcrumb {
+  background-color: #fff;
+  color: #1e1e1e;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.hero .breadcrumb a {
+  color: #1e1e1e;
+}
+.hero h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+}

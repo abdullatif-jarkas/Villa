@@ -1,0 +1,26 @@
+.properties {
+  margin-top: 120px;
+}
+.properties .section-heading {
+  text-align: center;
+}
+.properties .properties-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.property-card-container {
+  width: calc(100% / 3);
+  padding: 1.5rem;
+}
+
+@media screen and (width < 992px) {
+  .property-card-container {
+    width: unset;
+  }
+  .section-heading .section-h2 {
+    width: 100%;
+  }
+  .properties .properties-items {
+    justify-content: center;
+  }
+}

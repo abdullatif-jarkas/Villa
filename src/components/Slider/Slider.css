@@ -1,0 +1,143 @@
+.slider {
+  width: 100%;
+  position: relative;
+}
+.slides {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  position: relative;
+}
+.slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  transition: .3s;
+}
+.slide:nth-child(odd) {
+  background-color: red;
+}
+.slide:nth-child(even) {
+  background-color: blue;
+}
+
+
+.slide .slide-content {
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slide .slide-city {
+  background-color: #fff;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 6px 15px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.slide .slide-city span {
+  font-style: normal;
+  color: #f35525;
+}
+
+.slide .slide-text {
+  font-size: 3.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 65px;
+  width: 30%;
+  margin-bottom: 0px;
+  text-wrap: balance;
+
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slider .btn {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: 0.1s ease-in-out;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  border: 0;
+  opacity: 0.9;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider .btn:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.slider .next-btn {
+  right: 45px;
+}
+.slider .prev-btn {
+  left: 45px;
+}
+
+
+.pagination {
+  position: absolute;
+  left: 20%;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+.pagination span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pagination span.active {
+  background-color: orangered;
+}
+
+@media screen and (width < 768px) {
+  .slider .prev-btn {
+    left: 5px;
+  }
+  .slider .next-btn {
+    right: 5px;
+  }
+  .slide .slide-content {
+    left: 15%;
+  }
+  .slide .slide-text {
+    font-size: 2.875rem;
+    line-height: 65px;
+    width: 80%;
+  }
+  .pagination {
+    bottom: 80px;
+  }
+}

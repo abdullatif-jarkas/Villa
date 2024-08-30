@@ -1,0 +1,45 @@
+.properties-page {
+  padding-bottom: 150px;
+}
+.properties-page nav {
+  top: 0;
+}
+.properties-page .tabs {
+  margin: 120px 0 70px;
+}
+.properties-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.prop-pagination ul {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+.prop-pagination ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+.prop-pagination ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.prop-pagination ul li a.active {
+  background-color: #f35525;
+  color: #fff;
+}
+@media screen and (width < 992px) {
+  .properties-page .properties-cards {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,20 @@
+.contact-item {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 35px 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.contact-item img {
+  margin-right: 25px;
+}
+.contact-item h6 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.contact-item span {
+  font-size: 0.9375rem;
+  color: #aaaaaa;
+  font-weight: 400;
+}

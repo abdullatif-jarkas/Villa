@@ -1,0 +1,125 @@
+/* Deal Header */
+
+.best-deal {
+  background-color: #fafafa;
+  padding: 100px 0;
+  margin-top: 120px;
+}
+.best-deal .deal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.best-deal .section-heading {
+  margin-bottom: 0;
+  width: 50%;
+  text-wrap: balance;
+}
+
+/* Deal Container */
+
+.best-deal .deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 70px;
+}
+
+/* Info Table */
+
+.best-deal .info-table {
+  width: 25%;
+}
+.best-deal .info-table ul li {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+.best-deal .info-table ul li p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.best-deal .info-table ul li:nth-child(5) {
+  margin-bottom: unset !important;
+  padding-bottom: unset !important;
+  border-bottom: none !important;
+}
+.best-deal .info-table ul li span:nth-child(1) {
+  font-size: 0.9375rem;
+  color: #aaa;
+  font-weight: 400;
+}
+.best-deal .info-table ul li span:nth-child(2) {
+  font-size: 1.25rem;
+  color: #1e1e1e;
+  font-weight: 700;
+}
+
+/* Deal Img */
+
+.best-deal .deal-img {
+  width: 50%;
+}
+.best-deal .deal-img img {
+  width: 100%;
+  object-fit: cover;
+  padding: 0 45px;
+}
+
+/* Extra Info */
+
+.best-deal .extra-info {
+  width: 25%;
+}
+.best-deal .extra-info h4 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.best-deal .extra-info p {
+  font-size: 0.875rem;
+  line-height: 28px;
+  color: #4a4a4a;
+  margin-bottom: 30px;
+}
+.best-deal .extra-info .extra-btn {
+  width: fit-content;
+}
+
+@media screen and (width >= 768px) {
+}
+@media screen and (width < 992px) {
+  .best-deal .deal-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .best-deal .section-heading {
+    width: 100%;
+    margin-bottom: 70px;
+    margin-top: 0;
+  }
+  .best-deal .section-h2 {
+    width: 100%;
+  }
+  .best-deal .deal-header .tabs {
+    align-self: center;
+  }
+  .best-deal .deal-container {
+    flex-direction: column;
+  }
+  .best-deal .info-table {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  .best-deal .deal-img {
+    width: 100%;
+  }
+  .best-deal .deal-img img {
+    padding: 0;
+  }
+  .best-deal .extra-info {
+    width: 100%;
+    margin-top: 45px;
+  }
+}

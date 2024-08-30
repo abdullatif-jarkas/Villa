@@ -1,0 +1,36 @@
+.accordion .item {
+  display: block;
+  background: #fafafa;
+  padding: 10px 20px;
+}
+.accordion .item:nth-child(1) {
+  border-radius: 10px 10px 0 0;
+}
+.accordion .item:nth-child(3) {
+  border-radius: 0 0 10px 10px;
+}
+.accordion .item:not(:nth-child(3)) {
+  border-bottom: 1px solid #eaeaea;
+}
+.title {
+  color: #1e1e1e;
+  cursor: pointer;
+}
+.title h2 {
+  transition: 0.2s;
+}
+.title h2.active {
+  color: #f35525;
+}
+.content {
+  color: #212529;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+.content.show {
+  height: auto;
+  max-height: 150px;
+  transition: 0.3s ease;
+  padding-top: 10px;
+}

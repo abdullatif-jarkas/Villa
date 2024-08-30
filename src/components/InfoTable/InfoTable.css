@@ -1,0 +1,36 @@
+.info-table {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 35px 30px;
+}
+.info-table ul {
+  list-style: none;
+}
+.info-table ul li {
+  display: flex;
+  align-items: center;
+}
+.info-table ul li {
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #eee;
+}
+.info-table ul li img {
+  margin-right: 25px;
+}
+.info-table ul li h4 {
+  display: inline;
+  font-weight: 600;
+  font-size: 1.375rem;
+}
+.info-table ul li h4 span {
+  display: block;
+  font-size: 0.9375rem;
+  color: #aaa;
+  font-weight: 400;
+}
+@media screen and (width < 992px) {
+  .info-table {
+    margin-top: 45px;
+  }
+}
