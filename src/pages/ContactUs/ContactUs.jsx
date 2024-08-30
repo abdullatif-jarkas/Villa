@@ -13,7 +13,7 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <NavBar links={links} />
-      <Hero title="/  Contact Us" text="Contact Us" />
+      <Hero title="/ Contact Us" text="Contact Us" />
       <div className="container">
         <div className="row">
           <div className="contact-us-info">

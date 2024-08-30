@@ -149,6 +149,7 @@ nav .nav-trigger {
     height: 2px;
     background: rgb(30, 30, 30);
     display: block;
+    transition: .3s;
   }
   nav .nav-trigger span:nth-child(2) {
     width: 100%;
