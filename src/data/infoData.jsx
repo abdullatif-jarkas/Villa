@@ -92,7 +92,7 @@ export const infoDealData = [
       infoText: (
         <p>
           <span>Total Flat Space</span>
-          <span>200 m2</span>
+          <span>250 m2</span>
         </p>
       ),
     },
@@ -101,7 +101,7 @@ export const infoDealData = [
       infoText: (
         <p>
           <span>Floor number</span>
-          <span>30th</span>
+          <span>26th</span>
         </p>
       ),
     },
@@ -119,7 +119,7 @@ export const infoDealData = [
       infoText: (
         <p>
           <span>Parking Available</span>
-          <span>No</span>
+          <span>Yes</span>
         </p>
       ),
     },
@@ -128,7 +128,7 @@ export const infoDealData = [
       infoText: (
         <p>
           <span>Payment Process</span>
-          <span>Visa</span>
+          <span>Bank</span>
         </p>
       ),
     },
@@ -139,7 +139,7 @@ export const infoDealData = [
       infoText: (
         <p>
           <span>Total Flat Space</span>
-          <span>300 m2</span>
+          <span>320 m2</span>
         </p>
       ),
     },
@@ -148,7 +148,7 @@ export const infoDealData = [
       infoText: (
         <p>
           <span>Floor number</span>
-          <span>40th</span>
+          <span>34th</span>
         </p>
       ),
     },
@@ -157,7 +157,7 @@ export const infoDealData = [
       infoText: (
         <p>
           <span>Number of rooms</span>
-          <span>9</span>
+          <span>6</span>
         </p>
       ),
     },
@@ -186,22 +186,22 @@ export const extraDealData = [
   {
     title: "Extra Info About Property",
     text1:
-      "spanLorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.",
     text2:
       "When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.",
   },
   {
-    title: "Extra Info About Property",
+    title: "Detail Info About Villa",
     text1:
-      "lorem ipsum dolor sit amet, consectetur adip",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.",
     text2:
-      "When you need free CSS templates, etc.",
+      "Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.",
   },
   {
-    title: "Extra Info About Property",
+    title: "Extra Info About Penthouse",
     text1:
-      "spanLorem ipsum dolor sit amet, consectetur ad aliqua quised ipsum suspendisse.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.",
     text2:
-      "When you need free CSS. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.",
+      "Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.",
   },
 ];
