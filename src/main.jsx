@@ -8,7 +8,7 @@ import ScrollToTop from './components/ScrollToTop';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <React.StrictMode>
-  <BrowserRouter basename='task-3-mern'>
+  <BrowserRouter basename='Villa'>
     <ScrollToTop />
     <App />
   </BrowserRouter>
